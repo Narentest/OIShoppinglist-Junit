@@ -1,0 +1,94 @@
+Feature: Add and delete new lists of items under the List
+
+  Scenario Outline: Create 1st list of items under the List                                                 [90m# Scenario1.feature:3[0m
+    [36mGiven [0m[36mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    # 3 line menu bar or Navigation icon
+    [36mWhen [0m[36mTap on the "New list" option under the List header[0m
+    [36mAnd [0m[36mEnter name of new shopping list  name as "Sainsbury"[0m
+    [36mThen [0m[36mAdd the items to list "<Items>" should be added to list and saved[0m
+
+    Examples: 
+
+  Scenario Outline: Create 1st list of items under the List                                                 [90m# Scenario1.feature:11[0m
+    [33mGiven [0m[33mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    # 3 line menu bar or Navigation icon
+    [33mWhen [0m[33mTap on the "New list" option under the List header[0m
+    [33mAnd [0m[33mEnter name of new shopping list  name as "Sainsbury"[0m
+    [33mThen [0m[33mAdd the items to list "Grocery" should be added to list and saved[0m
+
+  Scenario Outline: Create 1st list of items under the List                                                 [90m# Scenario1.feature:12[0m
+    [33mGiven [0m[33mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    # 3 line menu bar or Navigation icon
+    [33mWhen [0m[33mTap on the "New list" option under the List header[0m
+    [33mAnd [0m[33mEnter name of new shopping list  name as "Sainsbury"[0m
+    [33mThen [0m[33mAdd the items to list "Fruit" should be added to list and saved[0m
+
+  Scenario Outline: Create 1st list of items under the List                                                 [90m# Scenario1.feature:13[0m
+    [33mGiven [0m[33mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    # 3 line menu bar or Navigation icon
+    [33mWhen [0m[33mTap on the "New list" option under the List header[0m
+    [33mAnd [0m[33mEnter name of new shopping list  name as "Sainsbury"[0m
+    [33mThen [0m[33mAdd the items to list "Dairy" should be added to list and saved[0m
+
+  Scenario Outline: Create 2nd list of items under the List                                                 [90m# Scenario1.feature:16[0m
+    [36mGiven [0m[36mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    [36mWhen [0m[36mTap on the "New list" option under the List header[0m
+    [36mAnd [0m[36mEnter name of new shopping list  name as "Tesco"[0m
+    [36mThen [0m[36mAdd the items to list "<Items>" should be added to list and saved[0m
+
+    Examples: 
+
+  Scenario Outline: Create 2nd list of items under the List                                                 [90m# Scenario1.feature:23[0m
+    [33mGiven [0m[33mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    [33mWhen [0m[33mTap on the "New list" option under the List header[0m
+    [33mAnd [0m[33mEnter name of new shopping list  name as "Tesco"[0m
+    [33mThen [0m[33mAdd the items to list "Grocery" should be added to list and saved[0m
+
+  Scenario Outline: Create 2nd list of items under the List                                                 [90m# Scenario1.feature:24[0m
+    [33mGiven [0m[33mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    [33mWhen [0m[33mTap on the "New list" option under the List header[0m
+    [33mAnd [0m[33mEnter name of new shopping list  name as "Tesco"[0m
+    [33mThen [0m[33mAdd the items to list "Fruit" should be added to list and saved[0m
+
+  Scenario Outline: Create 2nd list of items under the List                                                 [90m# Scenario1.feature:25[0m
+    [33mGiven [0m[33mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    [33mWhen [0m[33mTap on the "New list" option under the List header[0m
+    [33mAnd [0m[33mEnter name of new shopping list  name as "Tesco"[0m
+    [33mThen [0m[33mAdd the items to list "Dairy" should be added to list and saved[0m
+Feature: Adding new items list, sorting and validating the list of items
+
+  Scenario Outline: Create a list of items under the List                                                   [90m# Scenario2.feature:3[0m
+    [36mGiven [0m[36mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    [36mWhen [0m[36mTap on the "New list" option under the List header[0m
+    [36mAnd [0m[36mEnter name of new shopping list  name as "Iceland"[0m
+    [36mThen [0m[36mAdd the items to list "<Items>" should be added to list and saved[0m
+
+    Examples: 
+
+  Scenario Outline: Create a list of items under the List                                                   [90m# Scenario2.feature:10[0m
+    [33mGiven [0m[33mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    [33mWhen [0m[33mTap on the "New list" option under the List header[0m
+    [33mAnd [0m[33mEnter name of new shopping list  name as "Iceland"[0m
+    [33mThen [0m[33mAdd the items to list "Grocery" should be added to list and saved[0m
+
+  Scenario Outline: Create a list of items under the List                                                   [90m# Scenario2.feature:11[0m
+    [33mGiven [0m[33mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    [33mWhen [0m[33mTap on the "New list" option under the List header[0m
+    [33mAnd [0m[33mEnter name of new shopping list  name as "Iceland"[0m
+    [33mThen [0m[33mAdd the items to list "Fruit" should be added to list and saved[0m
+
+  Scenario Outline: Create a list of items under the List                                                   [90m# Scenario2.feature:12[0m
+    [33mGiven [0m[33mUser launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen[0m
+    [33mWhen [0m[33mTap on the "New list" option under the List header[0m
+    [33mAnd [0m[33mEnter name of new shopping list  name as "Iceland"[0m
+    [33mThen [0m[33mAdd the items to list "Dairy" should be added to list and saved[0m
+
+  Scenario: Sort the list and validate the sorting of the list items                                                            [90m# Scenario2.feature:15[0m
+    [33mGiven [0m[33mUser landed on the Home Screen of OI Shopping List app and tapped on Overflow menu icon on the right hand side screen[0m
+    [33mAnd [0m[33mSelect the "Settings" option[0m
+    [33mWhen [0m[33mUser select the "Sort order" option[0m
+    [33mAnd [0m[33mSelect "alphabetical" option[0m
+    [33mAnd [0m[33mReturn to the "Home Screen" by tapping the "Back button" of mobile device[0m
+    [33mAnd [0m[33mTap on the Hamburger menu icon on left hand side screen[0m
+    [33mAnd [0m[33mTap on the "Iceland" list[0m
+    [33mThen [0m[33mThe Items should be displayed in chosen sorting oder[0m

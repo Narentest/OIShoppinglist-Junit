@@ -1,0 +1,563 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Create 1st list of items under the List",
+        "description": "",
+        "id": "add-and-delete-new-lists-of-items-under-the-list;create-1st-list-of-items-under-the-list;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "# 3 line menu bar or Navigation icon"
+              }
+            ],
+            "line": 6,
+            "name": "Tap on the \"New list\" option under the List header",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Enter name of new shopping list  name as \"Sainsbury\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Add the items to list \"Grocery\" should be added to list and saved",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Create 1st list of items under the List",
+        "description": "",
+        "id": "add-and-delete-new-lists-of-items-under-the-list;create-1st-list-of-items-under-the-list;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "# 3 line menu bar or Navigation icon"
+              }
+            ],
+            "line": 6,
+            "name": "Tap on the \"New list\" option under the List header",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Enter name of new shopping list  name as \"Sainsbury\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Add the items to list \"Fruit\" should be added to list and saved",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Create 1st list of items under the List",
+        "description": "",
+        "id": "add-and-delete-new-lists-of-items-under-the-list;create-1st-list-of-items-under-the-list;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "# 3 line menu bar or Navigation icon"
+              }
+            ],
+            "line": 6,
+            "name": "Tap on the \"New list\" option under the List header",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Enter name of new shopping list  name as \"Sainsbury\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Add the items to list \"Dairy\" should be added to list and saved",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Create 2nd list of items under the List",
+        "description": "",
+        "id": "add-and-delete-new-lists-of-items-under-the-list;create-2nd-list-of-items-under-the-list;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Tap on the \"New list\" option under the List header",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "Enter name of new shopping list  name as \"Tesco\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "Add the items to list \"Grocery\" should be added to list and saved",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Create 2nd list of items under the List",
+        "description": "",
+        "id": "add-and-delete-new-lists-of-items-under-the-list;create-2nd-list-of-items-under-the-list;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Tap on the \"New list\" option under the List header",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "Enter name of new shopping list  name as \"Tesco\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "Add the items to list \"Fruit\" should be added to list and saved",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Create 2nd list of items under the List",
+        "description": "",
+        "id": "add-and-delete-new-lists-of-items-under-the-list;create-2nd-list-of-items-under-the-list;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Tap on the \"New list\" option under the List header",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "Enter name of new shopping list  name as \"Tesco\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "Add the items to list \"Dairy\" should be added to list and saved",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add and delete new lists of items under the List",
+    "description": "",
+    "id": "add-and-delete-new-lists-of-items-under-the-list",
+    "keyword": "Feature",
+    "uri": "Scenario1.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Create a list of items under the List",
+        "description": "",
+        "id": "adding-new-items-list,-sorting-and-validating-the-list-of-items;create-a-list-of-items-under-the-list;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Tap on the \"New list\" option under the List header",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Enter name of new shopping list  name as \"Iceland\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Add the items to list \"Grocery\" should be added to list and saved",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Create a list of items under the List",
+        "description": "",
+        "id": "adding-new-items-list,-sorting-and-validating-the-list-of-items;create-a-list-of-items-under-the-list;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Tap on the \"New list\" option under the List header",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Enter name of new shopping list  name as \"Iceland\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Add the items to list \"Fruit\" should be added to list and saved",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Create a list of items under the List",
+        "description": "",
+        "id": "adding-new-items-list,-sorting-and-validating-the-list-of-items;create-a-list-of-items-under-the-list;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User launched the OI Shopping List app and tapped on Hamburger menu icon on left hand side screen",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Tap on the \"New list\" option under the List header",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Enter name of new shopping list  name as \"Iceland\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Add the items to list \"Dairy\" should be added to list and saved",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Sort the list and validate the sorting of the list items",
+        "description": "",
+        "id": "adding-new-items-list,-sorting-and-validating-the-list-of-items;sort-the-list-and-validate-the-sorting-of-the-list-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "User landed on the Home Screen of OI Shopping List app and tapped on Overflow menu icon on the right hand side screen",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "Select the \"Settings\" option",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User select the \"Sort order\" option",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "Select \"alphabetical\" option",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "Return to the \"Home Screen\" by tapping the \"Back button\" of mobile device",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "Tap on the Hamburger menu icon on left hand side screen",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "Tap on the \"Iceland\" list",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "The Items should be displayed in chosen sorting oder",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding new items list, sorting and validating the list of items",
+    "description": "",
+    "id": "adding-new-items-list,-sorting-and-validating-the-list-of-items",
+    "keyword": "Feature",
+    "uri": "Scenario2.feature"
+  }
+]
